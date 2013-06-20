@@ -1,5 +1,5 @@
 <?php
-    class TaskListController extends BasePackage {
+    class TaskListController extends BasePackageWithDb {
         public function run() {
             echo "Tasklist Controller runs!";
         }
