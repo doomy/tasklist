@@ -1,7 +1,7 @@
 <ul>
     <?php
         foreach($tasks as $task) {
-            echo "<li>$task</li>";
+            echo "<li id='task$task->id'>$task->task</li>";
         }
     ?>
 </ul>

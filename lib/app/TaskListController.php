@@ -11,6 +11,7 @@
             $template = new Template($this->env, 'tasklist.tpl.php');
             $template->show(array(
                 'tasks' => $tasks
-            ));        }
+            ));
+        }
     }
 ?>
