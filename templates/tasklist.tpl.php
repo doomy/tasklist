@@ -1,7 +1,7 @@
-<select>
+<ul>
     <?php
         foreach($tasks as $task) {
-            echo "<option>$task</option>";
+            echo "<li>$task</li>";
         }
     ?>
-</select>
+</ul>
